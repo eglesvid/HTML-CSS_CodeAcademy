@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Pseudo user action classes</title>
+  </head>
+  <body>
+    <header>
+      <a href="#99">Nuoroda</a>
+    </header>
+    <main>
+      <form action="">
+        <legend>Asmens apklausos forma</legend>
+        <fieldset>
+          <label for="vardas">Vardas</label>
+          <input type="text" name="name" id="vardas" required autofocus />
+          <label for="pavarde">Pavardė</label>
+          <input type="text" name="lastname" id="pavarde" disabled />
+          <label for="amzius">Amžius</label>
+          <input type="number" name="age" id="amzius" min="18" max="99" />
+          <label for="id">Asmens kodas</label>
+          <input type="text" name="id" id="id" readonly value="689013212123" />
+        </fieldset>
+        <fieldset>
+          <legend>Mėgstamiausias gėrimas</legend>
+          <input type="radio" name="drink" id="kava" value="coffee" />
+          <label for="kava">Kava</label>
+          <input type="radio" name="drink" id="arbata" value="tea" />
+          <label for="arbata">Arbata</label>
+          <input type="radio" name="drink" id="alus" value="beer" />
+          <label for="alus">Alus</label>
+          <input type="radio" name="drink" id="kita" value="other" />
+          <label for="kita">Kitas gėrimas</label>
+        </fieldset>
+        <button type="submit">Siųsti duomenis</button>
+      </form>
+    </main>
+  </body>
+</html>

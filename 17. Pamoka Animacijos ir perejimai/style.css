@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+}
+
+.container > div {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.test {
+  transition: width 2s, height 2s;
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  margin: 100px;
+  display: block;
+}
+
+.test:hover {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  transition: height 2s, width 2s;
+}
+
+img:hover {
+  height: 300px;
+  width: 300px;
+}

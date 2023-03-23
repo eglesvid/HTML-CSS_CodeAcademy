@@ -1,0 +1,74 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  margin-bottom: 15px;
+}
+
+#page-container {
+  margin: auto;
+  width: 80%;
+}
+
+.container {
+  box-shadow: 1px 1px 2px rgb(124, 120, 120);
+}
+
+.container-background {
+  background-color: white;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.header-links {
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#maxima-background {
+  width: 100%;
+}
+
+.section-inner-container {
+  width: 90%;
+  margin: auto;
+}
+
+.product-image {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+#maxima-locations-image {
+  width: 100%;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

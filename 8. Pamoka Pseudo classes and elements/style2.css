@@ -1,0 +1,38 @@
+p:nth-last-of-type(1) {
+  color: red;
+}
+
+tr:nth-child(3) td:nth-child(4) {
+  background-color: black;
+}
+
+:not(p:first-child) {
+  color: blue;
+}
+
+/* selector:not(selector) */
+
+/* pseudo elements */
+
+#unique,
+content-manipulation {
+  color: black;
+}
+
+#unique::first-letter {
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+
+#unique::first-line {
+  text-transform: uppercase;
+}
+
+#content-manipulation::before {
+  font-family: FontAwesome;
+  content: "\f09a";
+}
+
+#content-manipulation::after {
+  content: "******";
+}

@@ -1,0 +1,23 @@
+a {
+  text-transform: uppercase;
+  font-size: larger;
+  text-decoration: none;
+}
+
+a:not(a:first-child) {
+  color: grey;
+}
+
+a:not(a:first-child)::before {
+  content: " // ";
+}
+
+a:first-child {
+  color: orange;
+}
+
+body section:last-of-type {
+  padding: 2rem;
+  background-color: black;
+  text-align: center;
+}

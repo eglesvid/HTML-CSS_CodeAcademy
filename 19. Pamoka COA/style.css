@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-main-color: #636cec;
+  --brand-main-color-darker: rgb(98, 73, 221);
+  --main-background-color: white;
+  --main-font-color: black;
+  --second-main-font-color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: var(--main-font-color);
+}
+
+@media screen and (min-width: 1000px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  ul a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    font-size: smaller;
+    padding: 10px;
+  }
+
+  .intro {
+    background-image: url(https://images.unsplash.com/photo-1511715885542-a3713331633d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.first-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.one-purple-word {
+  color: var(--brand-main-color);
+}
+
+h4 {
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+}
+
+.socials {
+  color: var(--brand-main-color);
+}
+
+header i {
+  margin-right: 0.6rem;
+}
+
+@media screen and (max-width: 1000px) {
+  ul {
+    display: none;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  height: 91vh;
+  background-color: var(--brand-main-color);
+}
+
+.first-section {
+  color: var(--second-main-font-color);
+  padding: 35vh 10vh;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.first-section p {
+  letter-spacing: 0.1rem;
+  text-transform: smaller;
+}
+
+.explore-tours {
+  background-color: var(--brand-main-color);
+  color: var(--second-main-font-color);
+  padding: 10px 15px;
+  border-radius: 8%;
+  border: 1px solid rgba(79, 90, 170);
+  border: transparent;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.explore-tours:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.25s;
+}
+
+/* SECOND SECTION: */
+
+.second-third-sections {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+  .about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  /* .single-item {
+    border: 4px solid var(--brand-main-color);
+    position: relative;
+  } */
+
+  .border::before {
+    content: "";
+    position: absolute;
+    width: 83%;
+    height: 90%;
+    border: 3px solid var(--brand-main-color);
+    top: -1rem;
+    left: -0.3rem;
+    background-color: white;
+  }
+
+  .border {
+    position: relative;
+  }
+
+  .single-item {
+    position: relative;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  padding: 30px;
+}
+
+.about-us img,
+.tibet-mountains {
+  max-width: 100%;
+}
+
+.about-us p {
+  text-align: justify;
+}
+
+.explore-the-difference-section {
+  padding: 0 50px;
+}
+
+.explore-heading,
+.read-more {
+  display: block;
+  text-align: left;
+  margin-left: 0;
+}
+
+.explore-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+/* THIRD SECTION: */
+
+.our-services {
+  background-color: rgba(248, 246, 246, 0.926);
+}
+
+.our-services h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.our-services p {
+  text-align: center;
+  font-weight: 390;
+}
+
+.our-services i {
+  background-color: var(--brand-main-color-darker);
+  display: inline-block;
+  height: 4rem;
+  width: 4rem;
+  padding: 0.9rem 0.7rem;
+  align-self: center;
+}
+
+.saving-money,
+.endless-hiking,
+.amazing-comfort {
+  flex: 1 0 30%;
+}
+
+.icons-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* TOUR SECTIONS: */
+
+.featured-tours-heading {
+  padding: 50px 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .tour-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.1rem;
+    margin: 0 10%;
+  }
+}
+
+.tour-item {
+  position: relative;
+  border: 1px solid whitesmoke;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+  margin-bottom: 4rem;
+}
+
+.tour-item .date {
+  background-color: var(--brand-main-color);
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.tibet-mountains {
+  width: 100%;
+  border-style: none;
+}
+
+h3 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+.tour-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info {
+  text-align: left;
+}
+
+.all-tours {
+  text-decoration: none;
+  color: var(--brand-main-color);
+}
+
+/* GALLERY SECTION: */
+
+.our-gallery-heading {
+  background-color: rgba(248, 246, 246, 0.926);
+  width: 100%;
+  margin: 60px 0 0 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .photos {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .photos img {
+    width: 25% !important;
+    border-bottom: none !important;
+  }
+}
+
+.photos img {
+  border-bottom: 5px solid var(--brand-main-color);
+  width: 100%;
+}
+
+.photos img:last-child {
+  border-bottom: none;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CONTACTS SECTION */
+
+.contacts {
+  background-color: var(--brand-main-color);
+  color: white;
+}
+
+.contacts-heading {
+  margin: 0;
+  text-align: center;
+}
+
+.sign-up-heading {
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.contacts-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  letter-spacing: 0.1rem;
+  padding: 10px;
+  border: none;
+  width: 400px;
+}
+
+.submit {
+  letter-spacing: 0.1rem;
+  padding: 0 8px;
+  border: 2px solid white;
+}
+
+/* FOOTER: */
+
+footer {
+  background-color: rgb(33, 33, 36);
+  color: white;
+  padding: 3rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav a {
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+footer i {
+  padding: 0.3rem;
+}
+
+footer section,
+footer p {
+  padding: 2rem;
+  margin: 0;
+}

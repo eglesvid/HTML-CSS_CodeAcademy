@@ -1,0 +1,14 @@
+h1:first-child::before,
+h1:first-child::after {
+  font-family: FontAwesome;
+  content: "\f00d";
+  padding: 1rem;
+}
+
+h1:last-child::before,
+h1:last-child::after {
+  font-family: FontAwesome;
+  content: "\f1e9";
+  padding: 1rem;
+  color: red;
+}

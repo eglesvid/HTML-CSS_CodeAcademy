@@ -1,0 +1,28 @@
+div {
+  width: 300px;
+  height: 100px;
+  background-color: crimson;
+  border: 10px solid black;
+  /* border-radius: 10px 40px; */
+  /* border-top: 5px solid green;
+  border-right: 20px dotted blue;
+  border-bottom: 10px double yellow;
+  border-left: 10px solid purple; */
+
+  /* padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 25px; */
+  padding: 15px;
+
+  /* margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 25px; */
+
+  margin: 100px auto;
+}
+
+.border-box {
+  box-sizing: border-box;
+}

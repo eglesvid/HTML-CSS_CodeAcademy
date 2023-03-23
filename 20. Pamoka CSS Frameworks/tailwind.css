@@ -1,0 +1,6 @@
+.my-button {
+  border: 10px solid black !important;
+  background-color: aqua;
+}
+ /* Tokia savo klase reiktu deti pries visus hover, focus.
+ Turetu nesupykti ir jei kaip pirma klase parasyciau. *

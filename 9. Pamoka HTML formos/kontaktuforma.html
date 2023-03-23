@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="kontaktuforma.css" />
+    <title>Kontaktu forma</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mgeqreye" method="post">
+      <fieldset>
+        <h1>Contact Us!</h1>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Petras"
+          min="3"
+          max="20"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="petras@petras.lt"
+          required
+        />
+        <br />
+        <label for="ref">Reference Number:</label>
+        <input type="number" name="ref" id="ref" placeholder="12213" />
+        <br />
+        <textarea placeholder="Your message goes here..."></textarea>
+        <br />
+        <input type="submit" value="Send!" />
+      </fieldset>
+    </form>
+  </body>
+</html>

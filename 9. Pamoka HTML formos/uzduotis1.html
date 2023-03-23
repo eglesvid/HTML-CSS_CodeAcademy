@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="uzduotis1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <h1>Payment Information</h1>
+      <p>Required fields are followed by *</p>
+      <h2>Contact Information</h2>
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="title" id="mister" value="mister" />
+        <label for="mister">Mister</label>
+        <br />
+        <input type="radio" name="title" id="miss" value="miss" />
+        <label for="miss">Miss</label>
+      </fieldset>
+      <label for="name-input">Name *</label>
+      <input type="text" id="name-input" required />
+      <br />
+      <label for="email-input">E-mail *</label>
+      <input type="email" id="email-input" name="email" required />
+      <br />
+      <label for="password-input">Password *</label>
+      <input type="password" id="password-input" name="password" required />
+      <br />
+      <h2>Payment Information</h2>
+      <label for="card-type-dropdown">Card type</label>
+      <select name="card-type" id="card-type-dropdown">
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="maestro">Maestro</option>
+      </select>
+      <br />
+      <label for="card-number">Card Number *</label>
+      <input
+        type="number"
+        min="100000000000000000"
+        max="9999999999999999"
+        name="card-number"
+        required
+      />
+      <br />
+      <label for="date-picker">Expiration Date *</label>
+      <input type="date" id="date-picker" name="expiration-date" />
+      <br />
+      <label id="date-picker-label" for="date-picker"
+        ><i>formatted as mm/yy</i></label
+      >
+      <br />
+      <button type="submit">Validate The Payment</button>
+    </form>
+  </body>
+</html>

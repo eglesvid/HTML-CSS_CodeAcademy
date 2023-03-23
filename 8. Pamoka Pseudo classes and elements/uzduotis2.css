@@ -1,0 +1,5 @@
+h3::before,
+h3::after {
+  font-family: FontAwesome;
+  content: "\f00c""\f00c""\f00c";
+}

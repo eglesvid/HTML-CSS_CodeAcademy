@@ -1,0 +1,46 @@
+.red {
+  width: 80%;
+  height: 40vh;
+  background-color: crimson;
+  border: 10px solid black;
+  /* border-radius: 10px 40px; */
+  /* border-top: 5px solid green;
+    border-right: 20px dotted blue;
+    border-bottom: 10px double yellow;
+    border-left: 10px solid purple; */
+
+  /* padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 25px; */
+  padding: 15px;
+
+  /* margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 25px; */
+
+  margin: 100px auto;
+}
+
+.border-box {
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.content-box {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 600px;
+  border: 3px solid green;
+}
+
+.em {
+  font-size: 2em;
+}
+
+.rem {
+  font-size: 2rem;
+}

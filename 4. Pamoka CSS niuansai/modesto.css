@@ -1,0 +1,30 @@
+body {
+  background-color: #441243;
+}
+
+div {
+  background-color: #220922;
+  margin: auto;
+  margin-top: 30px;
+  width: 40%;
+  padding: 10px;
+  outline-style: dotted;
+  outline-color: orange;
+  text-align: center;
+  color: rgba(173, 58, 12);
+  opacity: 0.5;
+}
+
+h1 {
+  color: rgb(185, 130, 27);
+}
+
+img {
+  border: 3px solid transparent;
+  border-radius: 50px;
+  border-left-color: blue;
+  border-top-color: white;
+  border-right-color: black;
+  border-bottom-color: green;
+  border-width: 20px;
+}

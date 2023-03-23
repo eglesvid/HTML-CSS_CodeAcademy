@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 500px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-item {
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  flex-basis: 200px;
+}
+
+.third-element {
+  flex: 0 2 200px;
+  align-self: center;
+}

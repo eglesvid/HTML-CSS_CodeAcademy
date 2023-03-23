@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(36, 38, 52);
+  text-align: center;
+}
+
+h1 {
+  color: yellow;
+}
+
+.blue {
+  color: rgb(0, 179, 255);
+}
+
+img {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+h4 {
+  color: rgb(225, 76, 86);
+}
+
+.container {
+  color: rgb(195, 195, 195);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(36, 38, 52);
+  text-align: center;
+}
+
+#left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+td {
+  border: 1px solid rgb(36, 38, 52);
+  padding: 15px;
+  width: 25px;
+  height: 10px;
+}
+
+td:first-child {
+  color: rgb(225, 76, 86);
+}
+
+.container tr:nth-child(odd) {
+  background-color: rgb(57, 73, 94);
+}
+
+.container tr:nth-child(even) {
+  background-color: rgb(36, 54, 78);
+}
+
+.form {
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 20px;
+  text-align: center;
+}
+
+.win {
+  padding: 5px;
+  width: 20px;
+  color: white;
+  background-color: rgb(44, 231, 44);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.draw {
+  padding: 5px;
+  width: 20px;
+  color: white;
+  background-color: rgb(255, 213, 0);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.loss {
+  padding: 5px;
+  width: 20px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  border-radius: 4px;
+}

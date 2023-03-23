@@ -1,0 +1,42 @@
+.container {
+  color: rgb(230, 107, 41);
+  width: 250px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+body {
+  background-color: rgb(81, 22, 80);
+  outline-style: dotted;
+  outline-color: rgb(246, 192, 106);
+  text-align: justify;
+}
+
+#unique {
+  color: rgb(246, 192, 106);
+}
+
+.headings {
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 250%;
+}
+
+.smallsize {
+  font-size: 1px;
+}
+
+.center {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-radius: 30px;
+  border-width: 1em;
+  border-color: white black green blue;
+}

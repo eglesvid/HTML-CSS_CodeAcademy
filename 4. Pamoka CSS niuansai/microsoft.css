@@ -1,0 +1,43 @@
+header {
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  background: rgb(15, 106, 15);
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+section.grey-block {
+  padding: 20px;
+  background: #eee;
+}
+
+section.green-block {
+  padding: 20px;
+  background: rgb(213, 242, 213);
+}
+
+section img {
+  width: 100%;
+}
+
+h2 {
+  background: rgb(15, 106, 15);
+  color: white;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.grey-block h2 {
+  margin-top: 20px;
+}

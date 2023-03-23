@@ -1,0 +1,12 @@
+p {
+  color: green;
+}
+
+.bold-text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#header-text {
+  background-color: rgb(red, green, blue);
+}

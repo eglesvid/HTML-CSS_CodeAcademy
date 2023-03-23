@@ -1,0 +1,61 @@
+td {
+  border: 1px solid crimson;
+  width: 100px;
+  height: 50px;
+}
+
+td:first-child {
+  background-color: blueviolet;
+}
+
+td:last-child {
+  background-color: lightblue;
+}
+
+td:nth-child(4) {
+  background-color: black;
+}
+
+td:nth-child(odd) {
+  background-color: yellow;
+}
+
+td:nth-child(3n + 1) {
+  background-color: magenta;
+}
+
+td:nth-last-child(2) {
+  background-color: green;
+}
+
+p:only-child {
+  color: blueviolet;
+}
+
+div {
+  border: 4px solid cyan;
+}
+
+.type-elements p:first-of-type {
+  color: green;
+}
+
+p:first-of-type {
+  color: green;
+}
+
+p:last-of-type {
+  color: orange;
+}
+
+p:nth-of-type(2n) {
+  color: blueviolet;
+}
+
+p:nth-last-of-type(1) {
+  color: red;
+}
+
+tr:nth-child(3) td:nth-child(4) {
+  background-color: black;
+}

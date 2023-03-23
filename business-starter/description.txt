@@ -1,0 +1,6 @@
+Sukoduoti pilnai veikiančią, responsive svetainę pagal šiuos reikalavimus:
+
+Negalima naudotis bootstrap, tik media-queries
+
+
+Dizaine naudojamas fontas: "Lato"
